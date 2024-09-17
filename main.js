@@ -13,13 +13,7 @@ const showHideCartSpan = document.getElementById("show-hide-cart");
 let isCartShowing = false;
 
 const products = [
-  {
-    id: 1,
-    name: "Vanilla Cupcakes",
-    price: 12.99,
-    category: "Cupcake",
-    Image: "/1.jpg",
-  },
+ 
   {
     id: 2,
     name: "French Macaron",
