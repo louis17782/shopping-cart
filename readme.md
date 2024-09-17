@@ -15,3 +15,6 @@ This is a simple project for a shopping cart focused on selling desserts. Users 
 - Calculate total payment.
 - Cart persistence between sessions using `localStorage`.
 
+## Ver el Proyecto en Vivo
+
+[![LIVE](https://img.shields.io/badge/Ver%20en%20Vivo-0078D4?style=for-the-badge)](https://louis17782.github.io/shopping-cart/)
