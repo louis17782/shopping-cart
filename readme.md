@@ -17,4 +17,4 @@ This is a simple project for a shopping cart focused on selling desserts. Users 
 
 ## see the project
 
-[![LIVE](https://img.shields.io/badge/Ver%20en%20Vivo-0078D4?style=for-the-badge)](https://louis17782.github.io/shopping-cart/)
+[![LIVE](https://img.shields.io/badge/See%20in%20Live-0078D4?style=for-the-badge)](https://louis17782.github.io/shopping-cart/)
