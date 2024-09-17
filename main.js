@@ -15,82 +15,95 @@ let isCartShowing = false;
 const products = [
   {
     id: 1,
-    name: "Vanilla Cupcakes (6 Pack)",
+    name: "Vanilla Cupcakes",
     price: 12.99,
     category: "Cupcake",
+    Image: "/1.jpg",
   },
   {
     id: 2,
     name: "French Macaron",
     price: 3.99,
     category: "Macaron",
+    image: "/2.jpg",
   },
   {
     id: 3,
     name: "Pumpkin Cupcake",
     price: 3.99,
     category: "Cupcake",
+    image: "/3.jpg",
   },
   {
     id: 4,
     name: "Chocolate Cupcake",
     price: 5.99,
     category: "Cupcake",
+    image: "/4.jpg",
   },
   {
     id: 5,
-    name: "Chocolate Pretzels (4 Pack)",
+    name: "Chocolate Pretzels",
     price: 10.99,
     category: "Pretzel",
+    image: "/5.jpg",
   },
   {
     id: 6,
     name: "Strawberry Ice Cream",
     price: 2.99,
     category: "Ice Cream",
+    image: "/6.jpg",
   },
   {
     id: 7,
-    name: "Chocolate Macarons (4 Pack)",
+    name: "Chocolate Macarons",
     price: 9.99,
     category: "Macaron",
+    image: "/7.jpg",
   },
   {
     id: 8,
     name: "Strawberry Pretzel",
     price: 4.99,
     category: "Pretzel",
+    image: "/8.jpg",
   },
   {
     id: 9,
     name: "Butter Pecan Ice Cream",
     price: 2.99,
     category: "Ice Cream",
+    image: "/9.jpg",
   },
   {
     id: 10,
     name: "Rocky Road Ice Cream",
     price: 2.99,
     category: "Ice Cream",
+    image: "/10.jpg",
   },
   {
     id: 11,
-    name: "Vanilla Macarons (5 Pack)",
+    name: "Vanilla Macarons",
     price: 11.99,
     category: "Macaron",
+    image: "/11.webp",
   },
   {
     id: 12,
-    name: "Lemon Cupcakes (4 Pack)",
+    name: "Lemon Cupcakes",
     price: 12.99,
     category: "Cupcake",
+    image: "/12.webp",
   },
 ];
 
 products.forEach(
-  ({ name, id, price, category }) => {
+  ({ name, id, price, category, image }) => {
     dessertCards.innerHTML += `
       <div class="dessert-card">
+      <img src="${image}" class="dessert-image">
         <h2>${name}</h2>
         <p class="dessert-price">$${price}</p>
         <p class="product-category">Category: ${category}</p>
