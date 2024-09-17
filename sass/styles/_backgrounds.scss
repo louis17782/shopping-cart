@@ -1,0 +1,90 @@
+@use "/sass/abstracts/" as *;
+
+.content-background {
+    background-image: linear-gradient(to top, rgba(0, .6,.6, 99%), rgba(0,.2,.2,7%)), url("/Agricultura.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+
+    p {
+        padding-top: 70px;
+        color: $whitepure;
+        font-family: $font-text;
+        font-size: 1.2;
+        margin: 20px;
+    }
+    h6 {
+        font-family: $font-title;
+        color: $whitepure;
+        font-size: 2.6em;
+        margin: 20px;
+    }
+}
+
+.background {
+    background-image: linear-gradient(to top, rgba(0, .6,.6, 20%), rgba(0,.2,.2,90%)), url("/techo1.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    
+        h1 {
+        color: $offwhite;
+        font-family: $font-title;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        text-transform: uppercase;
+        }
+
+        h2 {
+        padding-bottom: 100px;
+        color: $offwhite;
+        font-family: $font-title;
+        font-size: 1.7rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        }
+
+        p {
+        color: $offwhite;
+        font-family: $font-title;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        }
+      }
+
+      .background-resi {
+        background-image: url("/panel1.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+      }
+
+      @media only screen and (width >= 1024px) {
+
+        .content-background > p {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+      }
+
+      .pages {
+        background-image: linear-gradient(to bottom, rgba(0, .6,.6, 0%), rgba(0,.2,.2,60%)), url("/build1.webp");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 550px;
+        }
